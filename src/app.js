@@ -9,6 +9,10 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
+app.get('/', (req, res) => {
+  res.send('Server is running!');
+});
+
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
