@@ -50,7 +50,7 @@ Node.js ,Express.js,MondoDB
 
 3. Create a `.env` file in the root directory with the following variables:
    ```env
-   PORT=5000
+   PORT=3000
    MONGO_URI=<your-mongo-db-uri>
    JWT_SECRET=<your-secret-key>
    ```
